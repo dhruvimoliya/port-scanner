@@ -18,8 +18,14 @@ def scan_port(target, port):
 
 if __name__ == "__main__":
     target = "127.0.0.1"
-    port = 80
-    if scan_port(target, port):
-        print(f"Port {port} is OPEN")
-    else:
-        print(f"Port {port} is CLOSED")
+    
+    # Common ports to scan
+    ports = [21, 22, 80, 443, 3306, 8080]
+    
+    print(f"\nScanning {target}...\n")
+    
+    for port in ports:
+        if scan_port(target, port):
+            print(f"[✓] Port {port} is OPEN")
+        else:
+            print(f"[✗] Port {port} is CLOSED")
