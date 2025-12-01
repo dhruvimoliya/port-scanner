@@ -16,8 +16,8 @@ def scan_port(target, port):
     except:
         return False
 
-if __name__ == "__main__":
-    target = "127.0.0.1"
+def main():
+    target = input("Enter target IP (e.g., 127.0.0.1): ")
     
     # Common ports to scan
     ports = [21, 22, 80, 443, 3306, 8080]
@@ -29,3 +29,6 @@ if __name__ == "__main__":
             print(f"[✓] Port {port} is OPEN")
         else:
             print(f"[✗] Port {port} is CLOSED")
+
+if __name__ == "__main__":
+    main()
