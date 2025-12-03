@@ -1,0 +1,27 @@
+# Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (we'll cover these later)
+venv/
+env/
+ENV/
+
+# Sensitive files (IMPORTANT!)
+.env
+*.key
+*.pem
+config.ini
+secrets.json
+passwords.txt
+api_keys.txt
+
+# Logs (can contain sensitive data)
+*.log
+debug.log
+
+# OS junk
+.DS_Store
+Thumbs.db
