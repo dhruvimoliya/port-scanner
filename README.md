@@ -82,13 +82,6 @@ Suggestions and improvements are welcome! Feel free to open an issue or submit a
 
 This project is open source and available for educational purposes.
 
-## Author
-
-**Dhruvi Moliya**
-- GitHub: [@dhruvimoliya](https://github.com/dhruvimoliya)
-- LinkedIn: [dhruvi-moliya](https://linkedin.com/in/dhruvi-moliya-)
-- Medium: [@Mirage43](https://medium.com/@Mirage43)
-
 ---
 
 **Note**: Always practice responsible disclosure and ethical hacking principles.
